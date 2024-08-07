@@ -1,0 +1,122 @@
+form {
+    border: 1px solid;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    display: inline-block;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    margin: 8px 0 0;
+}
+
+button {
+    width: 100px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgb(102, 205, 170);
+    cursor: pointer;
+    padding: 5px 0;
+    border-radius: 6px 2px;
+    margin-top: 10px;
+    padding: 8px 5px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 8px 5px;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+.avatar {
+    width: 15%;
+    border-radius: 20px 10px 50px;
+}
+
+
+/* Add padding to containers */
+
+.container {
+    padding: 16px;
+}
+
+
+/* The "Forgot password" text */
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        /* Add padding to containers */
+        .container {
+            padding: 16px;
+        }
+        /* The "Forgot password" text */
+        span.psw {
+            float: right;
+            padding-top: 16px;
+        }
+        /* Change styles for span and cancel button on extra small screens */
+        @media screen and (max-width: 300px) {
+            span.psw {
+                display: block;
+                float: none;
+            }
+            .cancelbtn {
+                /* Add padding to containers */
+                .container {
+                    padding: 16px;
+                }
+                /* The "Forgot password" text */
+                span.psw {
+                    float: right;
+                    padding-top: 16px;
+                }
+                /* Change styles for span and cancel button on extra small screens */
+                @media screen and (max-width: 300px) {
+                    span.psw {
+                        display: block;
+                        float: none;
+                    }
+                    .cancelbtn {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+form,
+#container {
+    width: 50%;
+    justify-content: center;
+    display: grid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
